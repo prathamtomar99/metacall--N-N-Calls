@@ -107,6 +107,6 @@ coverage/
 .cache/
 tmp/
 temp/
-JS_PY
 
-Python_JS
+Roadmap.md 
+Instructions.md

@@ -1,0 +1,32 @@
+// Start Server
+
+cd /Users/prathamtomar/Desktop/GSOC2026/faas-fork
+npm start
+
+
+// zip - package - deploy
+
+cd /Users/prathamtomar/Desktop/GSOC2026/working-test/js_python
+
+rm -f deploy.zip
+zip -r deploy.zip main.py functions.js metacall-py.json
+
+curl -X POST http://localhost:9000/api/package/create \
+  -F "id=test10" \
+  -F "file=@deploy.zip;type=application/zip"
+
+curl -X POST http://localhost:9000/api/deploy/create \
+  -H "Content-Type: application/json" \
+  -d '{"suffix": "test10", "env": [], "version": "v1"}'
+
+
+// Fire
+
+curl -X POST http://localhost:9000/Prathams-MacBook-Air.local/fuzziest/v1/call/complex_calc \
+  -H "Content-Type: application/json" \
+  -d '{"a": 3, "b": 4}' && echo ""
+
+
+// Run directly
+
+metacall main.py
