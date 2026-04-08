@@ -10,8 +10,3 @@ metacall test_py_to_js.py // working
 metacall test_py_to_ruby.py // working
 metacall test_ruby_to_py.rb // working
 metacall test_ruby_to_js.rb // working
-
-## Known Issues
-
-- rb_null() returns Invalid/None across boundaries — Ruby loader bug in v0.9.20
-- Ruby as caller requires MetaCallRbLoaderPort (not bare globals)
