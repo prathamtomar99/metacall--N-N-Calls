@@ -72,8 +72,7 @@ This creates a comprehensive testing approach that uncovers issues that simpler 
 
 ## Repository Links
 
-* N:N Demo: [https://github.com/prathamtomar99/metacall--N-N-Calls](https://github.com/prathamtomar99/metacall--N-N-Calls)
-* Examples: [https://github.com/prathamtomar99/metacall-example](https://github.com/prathamtomar99/metacall-example)
+* N:N Demo: [https://github.com/prathamtomar99/metacall-fuzz-engine/tree/main/Examples](https://github.com/prathamtomar99/metacall-fuzz-engine/tree/main/Examples)
 * GSoC Issue: [https://github.com/metacall/testing-center/issues/24](https://github.com/metacall/testing-center/issues/24)
 
 ---
@@ -90,18 +89,3 @@ This creates a comprehensive testing approach that uncovers issues that simpler 
 ## Contribution
 
 This project is being developed as part of GSoC, but feedback, ideas, and discussions are always welcome.
-
----
-
-## Author
-
-**Pratham Tomar**
-GSoC 2026 Contributor
-MetaCall Organization
-
----
-
-If you want, I can next:
-
-* make this **more “GitHub trending style” (visual + badges)**
-* or create a **technical README version for contributors**
